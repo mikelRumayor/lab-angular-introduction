@@ -9,6 +9,7 @@ import { ArticlesComponent } from './articles/articles.component';
 import { MainComponent } from './main/main.component';
 import { CommentsComponent } from './comments/comments.component';
 import { CommentComponent } from './comment/comment.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CommentComponent } from './comment/comment.component';
     ArticlesComponent,
     MainComponent,
     CommentsComponent,
-    CommentComponent
+    CommentComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

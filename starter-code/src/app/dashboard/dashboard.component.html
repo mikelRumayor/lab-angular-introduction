@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let team of teams">
+        <h3> {{ team.year }} </h3>
+        <p> {{ team.name }} </p>
+        <img src="{{ team.champion_url}} "/>
+        <p> {{ team.best_players }} </p>
+    </li>
+</ul>
